@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assessment-4.css" />
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+    <form action="">
+      <div>
+        <label for="">First Name</label>
+        <input type="text" placeholder="Enter Your first name"  maxlength="6" minlength="3"/>
+      </div>
+      <div>
+        <label for="">Last Name</label>
+        <input type="text" placeholder="Enter Your last name" />
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" placeholder="Enter Your email" />
+      </div>
+      <div>
+        <label for="">Mobile</label>
+        <input type="text" placeholder="Enter Your mobile number" maxlength="10"/>
+      </div>
+      <div>
+        <label for="">Gender</label>
+        <input name="Gender" id="Male" class="gen" type="radio">
+        <label for="">Male</label>
+        <input name="Gender" id="Femle"  class="gen"type="radio">
+        <label for="">Female</label>
+      </div>
+      <div>
+        <label for="">Birth date</label>
+        <input type="date">
+      </div>
+      <div>
+        <label for="">Address</label>
+        <textarea name="Address" id="address" cols="30O" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="">City</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label for="">Area Pin</label>
+        <input type="number" />
+      </div>
+      <div>
+        <label for="">State</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label for="">Qualification</label>
+        <select name="Qualification" id="">
+          <option value="" disabled selected>Select your qualification</option>
+          <option value="10th">10th</option>
+          <option value="12th">12th</option>
+          <option value="graduate">Graduate</option>
+        </select>
+      </div>
+      <div>
+        <label for="">Specialization</label>
+        <input type="checkbox" name="specialization" id="sep">Computer Science 
+        <input type="checkbox" name="specialization" id="sep">Information technology 
+        <input type="checkbox" name="specialization" id="sep">Computer architecture 
+        <input type="checkbox" name="specialization" id="sep">Tale communication 
+      </div>
+      <div>
+        <label for="">Password</label>
+        <input type="password" required>
+      </div>
+      <button>Registration</button>
+    </form>
+  </body>
+</html>

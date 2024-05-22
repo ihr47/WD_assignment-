@@ -1,0 +1,35 @@
+h2{
+    color: red;
+    text-decoration: underline red;
+    text-align: center;
+}
+form{
+    background-color: rgb(217, 217, 217);
+}
+label{
+    font-size: 20px;
+    padding-left: 30px;
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+input{
+    height: 30px;
+    width: 40%;
+}
+.gen{
+    width: 20px;
+}
+textarea{
+    width: 40%;
+}
+#sep{
+    width: 20px;
+}
+button{
+    background-color: rgb(0, 148, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
